@@ -1,0 +1,97 @@
+.widget {
+  position: relative;
+  width: 300x;
+  height: 200px;
+  padding: 8px;
+  box-sizing: border-box;
+  width: 100vw;
+  text-align: center;
+}
+.icon {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.icon svg {
+  border: 1px solid #ffb95c;
+  background-color: antiquewhite;
+  color: #6d3e00;
+  width: 24px;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 50%;
+}
+.total__value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #43467d;
+}
+.total__label {
+  padding: 0 0 8px;
+  font-size: 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.content {
+  width: 100VW;
+  padding-top: 8px;
+}
+.trend {
+  width: 160px;
+  max-width: 200px;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  border-color: #999;
+}
+.trend.up {
+  border-color: #09ff00;
+}
+.trend.down {
+  border-color: #f97e7e;
+}
+.trend.small {
+  padding: 0px 8px;
+}
+.trend__icon {
+  color: #ccc;
+}
+.trend__icon svg {
+  width: 20px;
+}
+.up .trend__icon {
+  color: #035d00;
+}
+.down .trend__icon {
+  color: #5d0000;
+}
+.trand__label {
+  border: 1px solid black;
+}
+.infoline {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  padding: 2px 12px;
+  align-items: center;
+}
+.infoline__label {
+  font-size: 16px;
+  margin-right: auto;
+}
+.infoline__value {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 12px;
+  color: #43467d;
+}
+
+
+/*# sourceMappingURL=https://localhost:8080/assets/visual.css.map*/
